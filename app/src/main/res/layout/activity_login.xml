@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_chat">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="414dp"
+        android:layout_height="738dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571"
+        app:srcCompat="@drawable/bg" />
+
+    <ImageButton
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/back"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Welcome to"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.348"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <ImageButton
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/login"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="276dp"
+        android:layout_height="45dp"
+        android:background="@drawable/kolom"
+        android:drawablePadding="10dp"
+        android:elevation="5dp"
+        android:ems="15"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:paddingStart="13dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="276dp"
+        android:layout_height="45dp"
+        android:background="@drawable/kolom"
+        android:drawablePadding="10dp"
+        android:elevation="5dp"
+        android:ems="15"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:paddingStart="13dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="276dp"
+        android:layout_height="45dp"
+        android:background="@drawable/kolom"
+        android:drawablePadding="10dp"
+        android:elevation="5dp"
+        android:ems="15"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:paddingStart="13dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/textLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <TextView
+        android:id="@+id/textRegist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don’t have an account? Regist Now"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="619dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
