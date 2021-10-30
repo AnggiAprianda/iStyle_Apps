@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/drawable-v24/custom_input.xml" value="0.13796296296296295" />
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.13796296296296295" />
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.13796296296296295" />
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/drawable-v24/search_layout.xml" value="0.13796296296296295" />
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/layout/activity_account_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/layout/activity_chat.xml" value="0.20416666666666666" />
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/layout/activity_following_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/layout/activity_notifications_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/layout/activity_notofications_java.xml" value="0.20416666666666666" />
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/layout/activity_post_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/layout/activity_saved_screen2.xml" value="0.19010416666666666" />
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/layout/activity_saved_screen_1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/layout/activity_saved_screen_2.xml" value="0.33" />
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/layout/listview.xml" value="0.20416666666666666" />
+        <entry key="..\:/Citramas/istyle/iStyle_Apps/app/src/main/res/layout/percobaan.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/iStyledwi/app/src/main/res/layout/activity_chat.xml" value="0.40454076367389064" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/iStyledwi/app/src/main/res/layout/activity_friends.xml" value="0.33" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/iStyledwi/app/src/main/res/layout/activity_login.xml" value="0.40454076367389064" />
