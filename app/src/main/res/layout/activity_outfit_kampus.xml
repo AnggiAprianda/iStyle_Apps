@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".outfit_kampus"
+    android:background="@drawable/bg_isi">
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/back_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Outfit Ke Kampus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="17dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/photo_profile" />
+
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/outfit_kampus" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="95dp">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profil_arlene"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belle"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="510dp">
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="27dp"
+            android:background="@drawable/like_icon"/>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="27dp"
+            android:background="@drawable/chat_icon"
+            android:onClick="chat"
+            android:layout_marginLeft="15dp"/>
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="27dp"
+            android:background="@drawable/save_icon"
+            android:layout_marginLeft="15dp"/>
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="27dp"
+            android:background="@drawable/share_icon"
+            android:layout_marginLeft="163dp"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -65,7 +65,7 @@
         app:layout_constraintVertical_bias="0.31">
 
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -90,9 +90,9 @@
                     android:src="@drawable/foto_post" />
             </LinearLayout>
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -115,9 +115,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/saved_foto_6" />
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
 
             android:layout_width="81dp"
             android:layout_height="133dp"
@@ -142,9 +142,9 @@
                     android:src="@drawable/foto_1_saved" />
             </LinearLayout>
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
 
             android:layout_width="100dp"
             android:layout_height="107dp"
@@ -167,7 +167,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/foto_3_saved" />
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
     </GridLayout>
 
     <ImageView
@@ -239,4 +239,4 @@
         app:srcCompat="@drawable/back_icon_saved"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

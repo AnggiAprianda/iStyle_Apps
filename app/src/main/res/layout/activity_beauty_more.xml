@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_isi"
+    tools:context=".Beauty_More">
+
+    <Button
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/back_icon"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/photo_profile" />
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="606dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/kolom"
+        android:hint="Search"
+        android:paddingLeft="45dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/search_icon"/>
+
+    // tombol !!
+
+    <Button
+        android:id="@+id/btn_beauty"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/kolombtn"
+        android:clickable="true"
+        android:paddingBottom="3dp"
+        android:text="Beauty" />
+
+    <Button
+        android:id="@+id/btn_fashion"
+        android:layout_width="100dp"
+        android:clickable="true"
+        android:layout_height="35dp"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/kolombtn"
+        android:text="Fashion"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_"
+        android:layout_width="100dp"
+        android:clickable="true"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/kolombtn"
+        android:text="Health"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="200dp"
+        android:paddingLeft="10dp"
+        android:text="More Activities"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="205dp"
+        android:background="@drawable/garis" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="-46dp">
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:columnCount="2"
+            android:rowCount="3">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/photo_more1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/photo_more2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/photo_more4" />
+
+
+        </GridLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+
